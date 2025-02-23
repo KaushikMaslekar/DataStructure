@@ -1,0 +1,3 @@
+
+🔹 If the tree is deep → Use BFS (iterative) to avoid stack overflow.
+🔹 If the tree is balanced or shallow → Use DFS (recursive) for simplicity.

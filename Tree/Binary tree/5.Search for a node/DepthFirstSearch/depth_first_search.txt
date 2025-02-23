@@ -1,0 +1,17 @@
+1️⃣ Recursive Approach (DFS)
+✅ Why Use DFS for Searching?
+
+It follows Preorder, Inorder, or Postorder traversal.
+Simple and requires no extra data structures.
+Suitable for small trees or when recursion depth is manageable.
+🚀 Best for:
+
+Trees that are not too deep, so recursion depth doesn't become an issue.
+When we need to process nodes in a specific order (preorder, inorder, postorder).
+🔴 Disadvantages:
+
+Consumes stack space (can lead to stack overflow in deep trees).
+Slower for broad trees (wide but shallow trees may have faster BFS).
+
+
+

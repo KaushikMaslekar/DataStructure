@@ -1,0 +1,15 @@
+2️⃣ Iterative Approach (BFS - Level Order)
+✅ Why Use BFS for Searching?
+
+Uses a queue (FIFO structure) to traverse level by level.
+Ensures that shallow nodes are checked first, which can be faster for finding lower-depth nodes.
+Avoids stack overflow (common in deep recursion).
+🚀 Best for:
+
+When the tree is very deep (prevents stack overflow).
+When searching for a node closer to the root (BFS finds shallow nodes faster).
+Balanced trees (since levels are evenly filled).
+🔴 Disadvantages:
+
+Requires extra space for the queue (O(N) in the worst case).
+Slower if the target node is deep because it checks all nodes at each level.

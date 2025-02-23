@@ -1,0 +1,7 @@
+📌 When to Use Which Approach?
+Scenario	                        Use DFS (Recursive)	      Use BFS (Iterative)
+Searching for a deep node	        ❌ Not recommended	    ✅ Recommended
+Searching for a shallow node	    ✅ Efficient	            ✅ Efficient
+Memory is limited	                ✅ Uses less memory     	❌ Uses extra queue space
+Tree is deep (unbalanced)	        ❌ Stack overflow risk	✅ Better for deep trees
+Simple and easy to implement        ✅ Yes	                ❌ Needs a queue
